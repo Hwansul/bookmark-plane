@@ -2,26 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My Chrome Extension</title>
+    <title>Bookmark plane</title>
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
     <div class="app">
-      <p class="counter-label">Counter</p>
-      <div id="counter" class="counter"></div>
       <div class="button-container">
-        <button id="decrementBtn" class="button">-</button>
-        <button id="incrementBtn" class="button">+</button>
+        <button id="exportBtn" class="button">Export</button>
+        <!-- <button id="addButton">Add Bookmark</button> -->
+        <!-- <button id="removeButton">Remove Added Bookmarks</button> -->
+        <!-- <ul id="bookmarkList"></ul> -->
       </div>
-
-      <hr class="divider" />
-
-      <p class="title">Chrome Extension is Ready!</p>
-      <p class="subtitle">Start by updating <code>popup.html</code></p>
     </div>
 
     <script src="popup.js"></script>
-
+    <script src="context.js"></script>
     <!--
       This HTML file opens when you click on icon from the toolbar.
 
